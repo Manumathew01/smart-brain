@@ -1,24 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
 body {
   margin: 0;
-  font-family: 'Balsamiq Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: rgb(54,29,214);
-  background: linear-gradient(90deg, rgba(54,29,214,1) 0%, rgba(51,161,223,1) 38%, rgba(76,255,143,1) 100%, rgba(124,255,161,1) 100%);
-  background: black; */
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C3E50 , #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C3E50 , #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-code {
-  font-family: Consolas, source-code-pro, Menlo, Monaco, 'Courier New',
-    monospace;
-}
-
-button {
-  cursor: pointer;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #2c3e50, #000000);
+  background: linear-gradient(to right, #2c3e50, #000000);
 }
